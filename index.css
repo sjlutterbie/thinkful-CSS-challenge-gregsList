@@ -8,10 +8,9 @@ html, * {
 .topnav-container {
     position: fixed;
     height: 55px;
-    background-color: #ddd;
     width: 100%;
+    background-color: #ddd;
     text-align: right;
-    
     font-size: 20px;
 }
 
@@ -28,7 +27,6 @@ html, * {
         position: absolute;
         left: 0px;
         color: #000;
-        
     }
 
         .titleLink a:visited {
@@ -38,8 +36,8 @@ html, * {
     
     nav .topnav {
         list-style: none;
-        padding-right: 20px;
         display: inline-block;
+        padding-right: 20px;
         margin-top: 15px;
         margin-bottom: 15px;
     }
@@ -53,7 +51,7 @@ html, * {
                 color: purple;
             }
         
-/* ===MAIN CONTENT PANE=== */
+/* ===MAIN CONTENT AREAS=== */
 
 .container {
     padding-top: 55px; /* Prevent navbar blocking content. */
@@ -116,6 +114,7 @@ html, * {
         border-left-width: 0px;
     }
 
+ 
 .searchbar-results-nav a {
     color: #000;
     text-decoration: none;
@@ -128,7 +127,6 @@ html, * {
     .searchbar-results-nav a:focus span{
         border: 2px solid #85C1E9;
     }
-
     
 /* ===SEARCH RESULTS === */
 
@@ -140,9 +138,9 @@ html, * {
     color: #aaa;
 }
 
-    .search-results-loc {
-        padding-left: 10px;
-    }
+.search-results-loc {
+    padding-left: 10px;
+}
 
 .search-results-date, .search-results-title {
     padding-right: 10px;
