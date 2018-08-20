@@ -34,3 +34,12 @@ html {
         .topnav li {
             display: inline-block;
         }
+        
+/* ===MAIN CONTENT PANE=== */
+
+.container {
+    width: 1200px;
+    margin: auto;
+    background: #eee;
+    min-height: 100vh;
+}
