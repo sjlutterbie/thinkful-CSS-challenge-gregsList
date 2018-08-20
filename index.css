@@ -63,3 +63,16 @@ html {
     background: rgba(0,0,255,.3); /* TEMP: Design aid */
     min-height: 5vh; /* TEMP: Design aid */
 }
+
+/* ===SEARCH BAR=== */
+
+.searchbar-text{
+    width: 500px;
+    height: 30px;
+}
+
+.searchbar-submit {
+    display: inline-block;
+    height: 30px;
+    width: 30px;
+}
