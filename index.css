@@ -49,12 +49,15 @@ html, * {
             padding-right: 5px;
         }
         
+            .topnav li a {
+                color: purple;
+            }
+        
 /* ===MAIN CONTENT PANE=== */
 
 .container {
-    width: 1200px;
-    margin: auto;
     padding-top: 55px; /* Prevent navbar blocking content. */
+    padding-left: 75px;
 }
 
 .searchbar {
@@ -65,13 +68,11 @@ html, * {
 .searchbar-results-nav {
     width: 100%;
     font-size: 0px;
-    padding: 20px 20px 40px 20px;
+    padding: 20px 20px 30px 20px;
 }
 
 .searchbar-results {
     width: 100%;
-    background: rgba(0,0,255,.3); /* TEMP: Design aid */
-    min-height: 5vh; /* TEMP: Design aid */
     padding: 20px;
 }
 
@@ -131,10 +132,17 @@ html, * {
     
 /* ===SEARCH RESULTS === */
 
+.search-results td {
+    padding-bottom: 10px;
+}
 
 .search-results-date, .search-results-loc {
     color: #aaa;
 }
+
+    .search-results-loc {
+        padding-left: 10px;
+    }
 
 .search-results-date, .search-results-title {
     padding-right: 10px;
