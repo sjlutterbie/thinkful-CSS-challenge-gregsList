@@ -50,18 +50,22 @@ html {
     width: 100%;
     background: rgba(255,0,0,.3); /* TEMP: Design aid */
     min-height: 5vh; /* TEMP: Design aid */
+    padding: 10px;
 }
 
 .searchbar-results-nav {
     width: 100%;
     background: rgba(0,255,0,.3); /* TEMP: Design aid */
     min-height: 5vh; /* TEMP: Design aid */
+    font-size: 0px;
+    padding: 10px;
 }
 
 .searchbar-results {
     width: 100%;
     background: rgba(0,0,255,.3); /* TEMP: Design aid */
     min-height: 5vh; /* TEMP: Design aid */
+    padding: 10px;
 }
 
 /* ===SEARCH BAR=== */
@@ -76,3 +80,21 @@ html {
     height: 30px;
     width: 30px;
 }
+
+/* ===SEARCH BAR RESULTS NAV=== */
+
+.searchbar-nav {
+    border: 1px solid #ccc;
+    padding: 5px;
+    font-size: 18px;
+}
+
+    .searchbar-nav-prev {
+        border-radius: 5px 0px 0px 5px;
+        border-right-width: 0px;
+    }
+
+    .searchbar-nav-next {
+        border-radius: 0px 5px 5px 0px;
+        border-left-width: 0px;
+    }
