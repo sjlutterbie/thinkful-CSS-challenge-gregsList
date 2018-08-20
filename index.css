@@ -1,0 +1,36 @@
+html {
+    box-sizing: border-box;
+}
+
+/* ===TOP NAVIGATION=== */
+
+/* topNav area */
+.topnav-container {
+    position: fixed;
+    height: 60px;
+    background-color: #ccc;
+    width: 100%;
+    text-align: right;
+}
+
+    .titleLink {
+        display: inline-block;
+        height: 20px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        padding-left: 50px;
+        position: absolute;
+        left: 0px;
+    }
+    
+    nav .topnav {
+        list-style: none;
+        padding-right: 50px;
+        display: inline-block;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    
+        .topnav li {
+            display: inline-block;
+        }
