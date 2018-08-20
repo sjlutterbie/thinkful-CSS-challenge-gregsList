@@ -64,10 +64,8 @@ html, * {
 
 .searchbar-results-nav {
     width: 100%;
-    background: rgba(0,255,0,.3); /* TEMP: Design aid */
-    min-height: 5vh; /* TEMP: Design aid */
     font-size: 0px;
-    padding: 20px;
+    padding: 20px 20px 40px 20px;
 }
 
 .searchbar-results {
@@ -103,21 +101,35 @@ html, * {
 
 .searchbar-nav {
     border: 1px solid #ccc;
-    padding: 5px;
+    padding: 10px 20px;
     font-size: 18px;
 }
-
+    
     .searchbar-nav-prev {
-        border-radius: 5px 0px 0px 5px;
+        border-radius: 3px 0px 0px 3px;
         border-right-width: 0px;
     }
 
     .searchbar-nav-next {
-        border-radius: 0px 5px 5px 0px;
+        border-radius: 0px 3px 3px 0px;
         border-left-width: 0px;
     }
     
 /* ===SEARCH RESULTS === */
+
+.searchbar-results-nav a {
+    color: #000;
+    text-decoration: none;
+}
+
+    .searchbar-results-nav a:visited {
+        color: #000;
+    }
+    
+    .searchbar-results-nav a:focus span{
+        border: 2px solid #85C1E9;
+    }
+
 
 .search-results-date, .search-results-loc {
     color: #aaa;
