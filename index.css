@@ -1,6 +1,5 @@
-html {
+html, * {
     box-sizing: border-box;
-    background: #eee; /* TEMP: Design aid */
 }
 
 /* ===TOP NAVIGATION=== */
@@ -98,3 +97,19 @@ html {
         border-radius: 0px 5px 5px 0px;
         border-left-width: 0px;
     }
+    
+/* ===SEARCH RESULTS === */
+
+.search-results-date, .search-results-loc {
+    color: #aaa;
+}
+
+.search-results-date, .search-results-title {
+    padding-right: 10px;
+}
+
+.search-results-title a, .search-results-title a:visited {
+    font-weight: bold;
+    text-decoration: none;
+    color: blue;
+}
