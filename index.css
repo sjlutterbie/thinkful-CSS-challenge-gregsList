@@ -1,5 +1,6 @@
 html {
     box-sizing: border-box;
+    background: #eee; /* TEMP: Design aid */
 }
 
 /* ===TOP NAVIGATION=== */
@@ -40,6 +41,25 @@ html {
 .container {
     width: 1200px;
     margin: auto;
-    background: #eee;
-    min-height: 100vh;
+    padding-top: 60px; /* Prevent navbar overhang */
+    background: #fff; /* TEMP: Design aid */
+    min-height: 100vh; /* TEMP: Design aid */
+}
+
+.searchbar {
+    width: 100%;
+    background: rgba(255,0,0,.3); /* TEMP: Design aid */
+    min-height: 5vh; /* TEMP: Design aid */
+}
+
+.searchbar-results-nav {
+    width: 100%;
+    background: rgba(0,255,0,.3); /* TEMP: Design aid */
+    min-height: 5vh; /* TEMP: Design aid */
+}
+
+.searchbar-results {
+    width: 100%;
+    background: rgba(0,0,255,.3); /* TEMP: Design aid */
+    min-height: 5vh; /* TEMP: Design aid */
 }
