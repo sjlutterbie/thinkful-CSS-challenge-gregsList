@@ -55,15 +55,11 @@ html, * {
     width: 1200px;
     margin: auto;
     padding-top: 55px; /* Prevent navbar blocking content. */
-    background: #fff; /* TEMP: Design aid */
-    min-height: 100vh; /* TEMP: Design aid */
 }
 
 .searchbar {
     width: 100%;
-    background: rgba(255,0,0,.3); /* TEMP: Design aid */
-    min-height: 5vh; /* TEMP: Design aid */
-    padding: 10px;
+    padding: 20px;
 }
 
 .searchbar-results-nav {
@@ -71,27 +67,36 @@ html, * {
     background: rgba(0,255,0,.3); /* TEMP: Design aid */
     min-height: 5vh; /* TEMP: Design aid */
     font-size: 0px;
-    padding: 10px;
+    padding: 20px;
 }
 
 .searchbar-results {
     width: 100%;
     background: rgba(0,0,255,.3); /* TEMP: Design aid */
     min-height: 5vh; /* TEMP: Design aid */
-    padding: 10px;
+    padding: 20px;
 }
 
 /* ===SEARCH BAR=== */
 
 .searchbar-text{
+    display: inline-block;
     width: 500px;
     height: 30px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    padding: 5px;
+    margin-top: 5px;
+    font-size: 18px;
 }
 
 .searchbar-submit {
     display: inline-block;
     height: 30px;
     width: 30px;
+    vertical-align: bottom;
+    border: 1px solid #ddd;
+    border-radius: 3px;
 }
 
 /* ===SEARCH BAR RESULTS NAV=== */
